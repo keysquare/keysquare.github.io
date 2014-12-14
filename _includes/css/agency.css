@@ -299,7 +299,21 @@ header {
 }
 
 header .intro {
-    height: 600px;
+    height: 600px; /* fallback for browsers that don't support vh */
+    height: 100vh;
+}
+
+header .intro-wrap {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/hand.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: auto 50%;
+    -moz-background-size: auto 50%;
+    background-size: auto 50%;
+    -o-background-size: auto 50%;
 }
 
 header .intro {
@@ -307,13 +321,30 @@ header .intro {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header-fg.png);
-    background-position: center bottom;
+    background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
     -o-background-size: contain;
 }
+
+@media(max-width:768px) {
+    header .intro {
+        background-image: url(../img/header-fg-tall.png);
+    }
+    header .intro-wrap {
+        -webkit-background-size: auto 30%;
+        -moz-background-size: auto 30%;
+        background-size: auto 30%;
+        -o-background-size: auto 30%;
+    }
+}
+
+@media(min-width:992px) {
+
+}
+
 
 header .intro .intro-lead-in {
     margin-bottom: 25px;
@@ -380,10 +411,6 @@ section h3.section-subheading {
         padding: 40px 0 30px 0;
     }
 }
-
-/*
-@media(min-width:992px) {
-*/
 
 .text-heading {
     font-weight: bold;
