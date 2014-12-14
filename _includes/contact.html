@@ -3,11 +3,33 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-heading">
+                        Address
+                    </div>
+                    <ul class="address">
+                    {%for address_line in site.address %}
+                        <li>{{ address_line.line }}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-heading">
+                        Phone
+                    </div>
+                    <ul class="address">
+                        <li>{{ site.phone }}</li>
+                    </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
+                    <div class="text-heading">
+                        Send us a message
+                    </div>
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">

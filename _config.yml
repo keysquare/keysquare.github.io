@@ -2,7 +2,7 @@ url: https://therrick.github.io
 #baseurl: /
 
 # Site settings
-title: Key Square
+title: Key Square, Inc.
 email: website_contacts
 domain: key-square.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
@@ -66,10 +66,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Key Square, Inc.
-  - line: 609 East Market St.
-  - line: Suite 206
-  - line: Charlottesville, VA 22902
+- line: Key Square, Inc.
+- line: 609 East Market St.
+- line: Suite 206
+- line: Charlottesville, VA 22902
 
 phone: +1.434.218.2322
 

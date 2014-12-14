@@ -391,12 +391,12 @@ section h3.section-subheading {
     padding-bottom: 5px;
 }
 
-#about {
+section#about {
     background-color: #f7f7f7
 }
 
 @media(min-width:768px) {
-    #about {
+    section#about {
         background-image: url(../img/circuits-green-up.png);
         background-position: 40px bottom;
         background-repeat: no-repeat;
@@ -411,19 +411,19 @@ section h3.section-subheading {
     }
 }
 
-#services {
+section#services {
     background-color: #444;
     color: #fff;
     text-shadow: -2px 2px 20px #444;
 }
 
-#services .text-muted {
+section#services .text-muted {
     color: #ccc;
     background-color: #444;
 }
 
 @media(min-width:768px) {
-    #services {
+    section#services {
         background-image: url(../img/code-fade-top.png), url(../img/code-fade-bottom.png);
         background-position: center top, center bottom;
         background-repeat: no-repeat;
@@ -435,12 +435,12 @@ section h3.section-subheading {
 }
 
 
-#team {
+section#team {
     background-color: #f7f7f7
 }
 
 @media(min-width:768px) {
-    #team {
+    section#team {
         background-image: url(../img/electronics.png);
         background-position: right bottom;
         background-repeat: no-repeat;
@@ -474,11 +474,31 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 50px auto;
-}
 
 section#contact {
+    background-color: #444;
+    color: #fff;
+    text-shadow: -2px 2px 20px #444;
+}
+
+section#contact .text-muted {
+    color: #ccc;
+    background-color: #444;
+}
+
+@media(min-width:768px) {
+    #contact {
+        background-image: url(../img/circuit-angled.png);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    #contact-content {
+    }
+}
+
+/*section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
@@ -487,6 +507,11 @@ section#contact {
 
 section#contact .section-heading {
     color: #fff;
+}
+*/
+
+section#contact ul.address {
+    list-style-type: none;
 }
 
 section#contact .form-group {
