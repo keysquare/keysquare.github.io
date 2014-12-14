@@ -9,62 +9,69 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503  
+  primary: 1B7200
+  secondary: 00c800  
   secondary-dark: 333
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Hunter Ware
   pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  link:
+    type: linkedin
+    url: https://www.linkedin.com/pub/hunter-ware/7/595/663
 
-- name: Larry Parker
+- name: Bill Tompkins
   pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  link:
+    type: linkedin
+    url: https://www.linkedin.com/pub/bill-tompkins/9/689/40a
 
-- name: Diana Petersen
+- name: Jonathan Tillack
   pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  link:
+    type: linkedin
+    url: https://www.linkedin.com/pub/jonathan-tillack/6/a22/962
+
+- name: Tom Herrick
+  pic: 4
+  link:
+    type: linkedin
+    url: https://www.linkedin.com/pub/tom-herrick/23/36a/786
+
+- name: Bill Davis
+  pic: 5
+  link:
+    type: linkedin
+    url: www.linkedin.com/pub/bill-davis/46/54a/5a2
+
+- name: Adam Showalter
+  pic: 6
+  link:
+    type: linkedin
+    url: https://www.linkedin.com/in/adamshowalter
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  # - title: twitter
+  #   url: http://twitter.com/jekyllrb
+  # - title: facebook
+  #   url:
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket 
+  #   url: http://bitbucket.org/jekyll
+  # - title: github
+  #   url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Key Square, Inc.
+  - line: 609 East Market St.
+  - line: Suite 206
+  - line: Charlottesville, VA 22902
+
+phone: +1.434.218.2322
 
 # Build settings
 markdown: kramdown
