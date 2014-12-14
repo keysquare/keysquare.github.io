@@ -577,7 +577,6 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
-@media(min-width:768px) {
     .timeline:before {
         left: 50%;
     }
@@ -614,7 +613,6 @@ section h3.section-subheading {
     }
 }
 
-@media(min-width:992px) {
     .timeline>li {
         min-height: 150px;
     }
@@ -664,18 +662,54 @@ section h3.section-subheading {
     }
 }
 
-#about {
-    background-image: url(../img/circuits-green-up.png);
-    background-position: 40px bottom;
-    background-repeat: no-repeat;
-    -webkit-background-size: 250px auto;
-    -moz-background-size: 250px auto;
-    background-size: 250px auto;
-    -o-background-size: 250px auto;
+/*
+@media(min-width:992px) {
+*/
+
+.text-heading {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-#about-content {
-    margin-left: 280px;
+#about {
+    background-color: #f7f7f7
+}
+
+@media(min-width:768px) {
+    #about {
+        background-image: url(../img/circuits-green-up.png);
+        background-position: 40px bottom;
+        background-repeat: no-repeat;
+        -webkit-background-size: 250px auto;
+        -moz-background-size: 250px auto;
+        background-size: 250px auto;
+        -o-background-size: 250px auto;
+    }
+
+    #about-content {
+        margin-left: 280px;
+    }
+}
+
+#services {
+    background-color: #444;
+    color: #fff;
+}
+
+#services .text-muted {
+    color: #ccc;
+}
+
+@media(min-width:768px) {
+    #services {
+        background-image: url(../img/code-fade-top.png), url(../img/code-fade-bottom.png);
+        background-position: center top, center bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    #services-content {
+    }
 }
 
 .team-member {
