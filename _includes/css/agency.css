@@ -294,7 +294,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        margin-left: -80px;
+        margin-left: -40px;
         padding: 15px 0;
         font-size: 1.5em;
     }
