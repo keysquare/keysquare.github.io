@@ -18,8 +18,9 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "//forms.brace.io/" + to_email, // to_email is set globally in js.html based on site variables
                 type: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
