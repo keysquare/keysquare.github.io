@@ -1,30 +1,34 @@
-Agency Jekyll theme
+Key Square website
 ====================
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+Based on the [Agency Jekyll theme] (http://jekyllthemes.org/themes/agency/)
 
-# How to use
+# Running locally
 
-###Portfolio 
+* install rvm & ruby v2.1.3
+* clone this repo
+* cd to the cloned directory
+* run `bundle exec jekyll serve --watch`
+* view at `http://0.0.0.0:4000`
+* make changes, commit & push on master and they will automatically be published at keysquare.github.io (and therefore www.key-square.com)
 
-Portfolio projects are in '/_posts'
+# Configuration
 
-Images are in '/img/portfolio'
+* many common changes can be made via _config.yml, including address, phone number, target email for the contact form, and team members
+* when you change _config.yml, you need to 
 
-###About
+# Contact messages
 
-Images are in '/img/about/'
+* contact messages are sent using an ajax request to forms.brace.io and forwarded to the webcontacts alias (currently goes to tom)
 
-###Team
+# Jekyll
 
-Team members and info are in '_config.yml'
+For more about jekyll, read the [jekyll documentation](http://jekyllrb.com/)
 
-Images are in '/img/team/'
+# Github pages
 
+For more about github pages, read the [github pages documentation](https://pages.github.com/)
 
-# Demo
+# DNS
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+[DNS setup for github pages](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
