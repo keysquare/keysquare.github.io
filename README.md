@@ -19,7 +19,7 @@ Based on the [Agency Jekyll theme] (http://jekyllthemes.org/themes/agency/)
 
 # Contact messages
 
-* contact messages are sent using an ajax request to forms.brace.io and forwarded to the webcontacts alias (currently goes to tom)
+* contact messages are sent using an ajax request to formspree.io and forwarded to the webcontacts alias (currently goes to tom)
 
 # Jekyll
 
