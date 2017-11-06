@@ -39,14 +39,8 @@ people:
     type: linkedin
     url: https://www.linkedin.com/in/therrick
 
-- name: Bill Davis
-  pic: 5
-  link:
-    type: linkedin
-    url: https://www.linkedin.com/pub/bill-davis/46/54a/5a2
-
 - name: Adam Showalter
-  pic: 6
+  pic: 5
   link:
     type: linkedin
     url: https://www.linkedin.com/in/adamshowalter
