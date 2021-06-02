@@ -27,12 +27,6 @@ people:
     type: linkedin
     url: https://www.linkedin.com/pub/bill-tompkins/9/689/40a
 
-- name: Jonathan Tillack
-  pic: 3
-  link:
-    type: linkedin
-    url: https://www.linkedin.com/pub/jonathan-tillack/6/a22/962
-
 - name: Tom Herrick
   pic: 4
   link:
@@ -61,8 +55,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
 - line: Key Square, Inc.
-- line: 2350 Commonwealth Dr.
-- line: Suite B
+- line: 977 Seminole Trail #282
 - line: Charlottesville, VA 22901
 
 phone: +1.434.218.2322
