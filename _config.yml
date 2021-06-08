@@ -55,7 +55,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
 - line: Key Square, Inc.
-- line: 977 Seminole Trail #282
+- line: 977 Seminole Trail \#282
 - line: Charlottesville, VA 22901
 
 phone: +1.434.218.2322
